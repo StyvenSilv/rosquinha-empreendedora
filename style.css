@@ -1,0 +1,55 @@
+header {
+  background-color: #ff75cf;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: yellow !important;
+}
+
+h2 {
+  color: rgb(9, 243, 255) !important;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.recipe {
+  margin-bottom: 40px;
+}
+
+.recipe h2 {
+  color: #ffffff;
+}
+
+.recipe p {
+  color: #ffffff;
+}
+
+body {
+  background-image: url('rosqinha.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed
+}
+
+body::before {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: #fff;
+}
